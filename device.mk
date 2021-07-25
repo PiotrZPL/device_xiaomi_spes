@@ -17,9 +17,9 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
+# Camera ring
+PRODUCT_PACKAGES += \
+    CutoutRingServiceSpes
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
