@@ -29,4 +29,8 @@
 
     <!-- Burn-in protection -->
     <dimen name="burnin_protection_horizontal_shift">1dp</dimen>
+
+    <!-- Preferred refresh rate at keyguard, if supported by the display -->
+    <integer name="config_keyguardRefreshRate">90</integer>
+
 </resources>
