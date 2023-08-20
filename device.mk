@@ -63,7 +63,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FrameworksSpes \
     SettingsSpes \
-    SystemUISpes
+    SystemUISpes \
+    SpesSettingsOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
